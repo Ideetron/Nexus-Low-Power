@@ -62,8 +62,8 @@
 	typedef enum
 	{
 		RES_MASK        = 0b10000001,	// mask for bits 7 and 0
-		RES_RH12_Temp14 = 0b00000001,   //  22.8ms MAX conversion time
-		RES_RH8_Temp12  = 0b10000000,   //  6.9ms
+		RES_RH12_Temp14 = 0b00000000,   //  22.8ms MAX conversion time
+		RES_RH8_Temp12  = 0b00000001,   //  6.9ms
 		RES_RH10_Temp13 = 0b10000000,   //  23.0ms
 		RES_RH11_Temp11 = 0b10000001    //  9.4ms
 	}TEMP_RESOLUTION;
